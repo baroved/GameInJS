@@ -1,0 +1,55 @@
+
+.gameBoard {
+    border-style: solid;
+    height: 400px;
+    width: 600px;
+}
+
+.catcherStyle {
+    height: 30px;
+    width: 75px;
+    background-color: red;
+    position: absolute;
+    
+
+}
+
+.scoreStyle {
+    position: absolute;
+    left: 550px;
+    top: 300px;
+    background-color: aqua;
+    height: 100px;
+    width: 50px;
+}
+.buttonStyle{
+    width: 50px;
+    height: 30px;
+    
+}
+
+
+.counterStyle {
+    font-weight: bold;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.goodiesStyle {
+    color: red;
+}
+.enemiesStyle{
+    color: black;
+}
+
+.ballStyle {
+    height: 25px;
+    width: 25px;
+    border-radius: 30px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    visibility: hidden;
+
+}
